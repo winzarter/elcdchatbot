@@ -29,7 +29,7 @@ const CONFIG = {
   // Your Anthropic API key — get one at console.anthropic.com
   // WARNING: Exposing API keys in frontend JS is NOT recommended for production.
   // Use a lightweight proxy backend (e.g., Cloudflare Worker) for real deployments.
-  ANTHROPIC_API_KEY: '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',
+  ANTHROPIC_API_KEY: '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',
 
   // EmailJS Configuration — Sign up free at https://www.emailjs.com/
   EMAILJS_SERVICE_ID: 'YOUR_EMAILJS_SERVICE_ID',
