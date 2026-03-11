@@ -1,0 +1,77 @@
+{
+  "business": {
+    "name": "EL Creative Design",
+    "type": "Digital Creative Resources & Design Assets Platform",
+    "description": "EL Creative Design provides digital creative resources, design tools, and downloadable assets for content creators, designers, and editors. The platform offers access to collections of creative software, presets, templates, and digital resources that help users improve their design, editing, and content creation workflow. The goal of the platform is to make creative tools more accessible and affordable for beginners and professionals.",
+    "value_proposition": "Instead of buying expensive tools individually, users can access a bundle of creative resources in one place, saving both time and money.",
+    "contact_email": "Erwinsister10@gmail.com"
+  },
+
+  "products": [
+    {
+      "name": "Digital Design Resources",
+      "description": "A comprehensive collection of presets, LUTs, design templates, and creative assets to enhance your visual projects.",
+      "items": ["Presets and LUTs", "Design templates", "Creative assets"]
+    },
+    {
+      "name": "Creative Software Collections",
+      "description": "Curated bundles of creative software tools used for photo editing, video editing, graphic design, and content creation.",
+      "items": ["Photo editing tools", "Video editing tools", "Graphic design tools", "Content creation tools"]
+    },
+    {
+      "name": "Download Access System",
+      "description": "Users receive online access to digital files where they can instantly download creative tools and resources after purchase."
+    }
+  ],
+
+  "target_customers": [
+    "Content creators",
+    "Video editors",
+    "Graphic designers",
+    "Freelancers",
+    "Students learning creative design",
+    "Social media marketers"
+  ],
+
+  "key_benefits": [
+    "Affordable access to premium creative tools",
+    "Easy and instant download system",
+    "Useful for both beginners and professionals",
+    "Helps improve content quality",
+    "Save time with all resources in one place",
+    "Save money compared to buying tools individually"
+  ],
+
+  "faqs": [
+    {
+      "question": "What is EL Creative Design?",
+      "answer": "EL Creative Design is a digital platform that provides creative resources, design tools, and downloadable assets for content creators, designers, and editors — all in one affordable place."
+    },
+    {
+      "question": "How do I access the products?",
+      "answer": "After purchasing, you receive online access to a download system where you can instantly download all your creative tools and resources."
+    },
+    {
+      "question": "Who is this platform for?",
+      "answer": "EL Creative Design is perfect for content creators, video editors, graphic designers, freelancers, students learning design, and social media marketers."
+    },
+    {
+      "question": "Are the tools affordable?",
+      "answer": "Yes! EL Creative Design's mission is to make professional creative tools accessible and affordable. Instead of buying expensive tools one by one, you get everything bundled at a fraction of the cost."
+    },
+    {
+      "question": "What kind of resources are available?",
+      "answer": "We offer presets, LUTs, design templates, creative assets, and software collections for photo editing, video editing, graphic design, and content creation."
+    },
+    {
+      "question": "Is it suitable for beginners?",
+      "answer": "Absolutely! The platform is designed to help both beginners and professionals improve their creative workflow. Our resources are easy to use and implement."
+    },
+    {
+      "question": "How do I get started?",
+      "answer": "You can browse our collections and choose the resources that match your creative needs. Our team can also help guide you to the right products for your workflow."
+    }
+  ],
+
+  "system_prompt": "You are an AI assistant for EL Creative Design, a digital creative resources and design assets platform. Your role is to be a friendly, professional, and helpful customer support and sales assistant.\n\nABOUT THE BUSINESS:\nEL Creative Design provides digital creative resources, design tools, and downloadable assets for content creators, designers, and editors. Products include presets, LUTs, design templates, creative assets, and creative software collections for photo/video editing, graphic design, and content creation. The platform makes professional tools affordable and accessible.\n\nYOUR RESPONSIBILITIES:\n1. Answer questions about EL Creative Design's products and services based on the knowledge base\n2. Guide customers to the right products for their needs\n3. Highlight key benefits: affordability, easy downloads, beginner-friendly, time-saving\n4. Collect lead information (name, email, phone) when a customer shows genuine interest\n5. Be conversational, warm, and helpful\n\nLEAD COLLECTION RULES:\n- If a customer asks about pricing, wants to purchase, wants more info, or shows clear buying interest, politely ask for their contact information\n- Collect: First and last name, email address, and phone number\n- Do this naturally in conversation, not all at once\n- Once collected, confirm their info will be passed to the team\n\nKEY RULES:\n- Only answer based on EL Creative Design's knowledge base\n- If you don't know an answer, say: 'Great question! For specific details on that, I'd recommend reaching out directly to our team at Erwinsister10@gmail.com'\n- Never make up prices, features, or details not in the knowledge base\n- Always be encouraging and guide users toward taking action\n- Keep responses concise (2-4 sentences typically), friendly, and professional\n\nSTARTER GREETING:\nWelcome with enthusiasm about EL Creative Design and ask how you can help."
+}

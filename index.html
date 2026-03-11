@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>EL Creative Design — AI Chat Assistant</title>
+  <meta name="description" content="EL Creative Design — Digital Creative Resources & Design Assets Platform" />
+
+  <!--
+    ============================================================
+    HOW TO EMBED THIS CHATBOT ON YOUR EXISTING WEBSITE:
+    1. Copy the <link> tag below (style.css) into your <head>
+    2. Copy the CHAT WIDGET section from <body> into your page
+    3. Copy the <script> tags at the bottom of <body>
+    4. Edit chatbot.js CONFIG with your API keys
+    5. Edit knowledgebase.json with your business info
+    ============================================================
+  -->
+
+  <!-- Chat Widget Styles -->
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- Favicon (optional) -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎨</text></svg>" />
+</head>
+<body>
+
+  <!-- ============================================================
+       DEMO PAGE CONTENT
+       (Remove this section when embedding into your existing site)
+       ============================================================ -->
+  <div class="demo-page">
+    <div class="demo-hero">
+      <div class="logo-badge">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+          <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
+        </svg>
+        EL Creative Design
+      </div>
+
+      <h1>Digital Creative Resources for Everyone</h1>
+
+      <p>
+        Presets, LUTs, templates, and creative software collections —
+        everything you need to elevate your design workflow, all in one
+        affordable platform.
+      </p>
+
+      <div class="demo-cta-note">
+        <span>💬</span>
+        Chat with our AI assistant — bottom right corner
+      </div>
+    </div>
+  </div>
+  <!-- END DEMO PAGE CONTENT -->
+
+
+  <!-- ============================================================
+       CHAT WIDGET — Copy everything below into your website
+       ============================================================ -->
+
+  <!-- Floating Action Button -->
+  <button id="chat-fab" aria-label="Open chat assistant" title="Chat with us">
+    <!-- Chat Icon (shown when closed) -->
+    <svg class="fab-icon fab-icon-chat" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/>
+    </svg>
+    <!-- Close Icon (shown when open) -->
+    <svg class="fab-icon fab-icon-close" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round">
+      <line x1="18" y1="6" x2="6" y2="18"/>
+      <line x1="6" y1="6" x2="18" y2="18"/>
+    </svg>
+  </button>
+
+  <!-- Chat Window -->
+  <div id="chat-window" role="dialog" aria-label="AI Chat Assistant" aria-modal="true">
+
+    <!-- Header -->
+    <div class="chat-header">
+      <div class="header-avatar">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <circle cx="12" cy="12" r="3"/>
+          <path d="M12 2v3M12 19v3M4.22 4.22l2.12 2.12M17.66 17.66l2.12 2.12M2 12h3M19 12h3M4.22 19.78l2.12-2.12M17.66 6.34l2.12-2.12"/>
+        </svg>
+      </div>
+
+      <div class="header-info">
+        <!-- Edit bot name here -->
+        <div class="bot-name">EL Creative Assistant</div>
+        <div class="bot-status">
+          <span class="status-dot"></span>
+          Online — typically replies instantly
+        </div>
+      </div>
+
+      <div class="header-actions">
+        <!-- Minimize Button -->
+        <button class="header-btn" id="minimize-btn" aria-label="Minimize chat" title="Minimize">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+            <line x1="5" y1="12" x2="19" y2="12"/>
+          </svg>
+        </button>
+      </div>
+    </div>
+
+    <!-- Messages Area -->
+    <div class="chat-messages" id="chat-messages" role="log" aria-live="polite" aria-label="Chat messages">
+      <!-- Messages are injected here by chatbot.js -->
+    </div>
+
+    <!-- Input Area -->
+    <div class="chat-input-area">
+      <textarea
+        id="user-input"
+        placeholder="Type your message..."
+        rows="1"
+        aria-label="Type your message"
+        autocomplete="off"
+        spellcheck="true"
+      ></textarea>
+
+      <button id="send-btn" aria-label="Send message" title="Send">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+          <line x1="22" y1="2" x2="11" y2="13"/>
+          <polygon points="22 2 15 22 11 13 2 9 22 2"/>
+        </svg>
+      </button>
+    </div>
+
+    <!-- Footer -->
+    <div class="chat-footer">
+      Powered by Claude AI &nbsp;·&nbsp; EL Creative Design &copy; 2025
+    </div>
+
+  </div>
+  <!-- END CHAT WIDGET -->
+
+
+  <!-- ============================================================
+       SCRIPTS
+       ============================================================ -->
+
+  <!--
+    EmailJS SDK — Required for email lead delivery.
+    Sign up free at https://www.emailjs.com/
+    Replace YOUR_PUBLIC_KEY in chatbot.js after setup.
+  -->
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+
+  <!-- Chat Widget Logic -->
+  <script src="chatbot.js"></script>
+
+</body>
+</html>
